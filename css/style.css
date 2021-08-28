@@ -7,7 +7,7 @@
 :root {
 	--preto: #121212;
   --branco: #ffffff;
-  --vermelhoEscuro: #6b1919;
+  --vermelhoEscuro: #810000;
 }
 
 ul {
@@ -20,22 +20,17 @@ ul li a {
   text-decoration: none;
 }
 
+div img {
+  display: block;
+  width: 100%;
+}
+
 header {
   background-color: var(--vermelhoEscuro);
   height: 100px;
   display: flex;
   width: 100%;
-  color: var(--branco);
-}
-
-header .list-items {
-  display: flex;
-  width: 100%;
-  max-width: 260px;
-  justify-content: space-between;
-}
-
-.list-items li a{
+  align-items: center;
   color: var(--branco);
 }
 
@@ -43,11 +38,24 @@ header .menu {
   justify-content: space-between;
 }
 
-.flex-container {
+header .list-items {
   display: flex;
+  width: 100%;
+  max-width: 260px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-items li a{
+  color: var(--branco);
+}
+
+.flex-container {
+  display:flex;
   max-width: 992px;
   margin: auto;
   width: 100%;
+  min-width: 320px;
 }
 
 #quem-somos {
