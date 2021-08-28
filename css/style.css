@@ -4,6 +4,12 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+	--preto: #121212;
+  --branco: #ffffff;
+  --vermelhoEscuro: #6b1919;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -15,11 +21,11 @@ ul li a {
 }
 
 header {
-  background-color: #121212;
+  background-color: var(--vermelhoEscuro);
   height: 100px;
   display: flex;
   width: 100%;
-  color: #fff
+  color: var(--branco);
 }
 
 header .list-items {
@@ -30,7 +36,7 @@ header .list-items {
 }
 
 .list-items li a{
-  color: #fff;
+  color: var(--branco);
 }
 
 header .menu {
@@ -42,4 +48,37 @@ header .menu {
   max-width: 992px;
   margin: auto;
   width: 100%;
+}
+
+#quem-somos {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#quem-somos h2 {
+  font-size: 32px;
+  color: var(--preto);
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+#quem-somos h2::before {
+  content: "";
+  height: 40px;
+  width: 5px;
+  margin-right: 5px;
+  background-color: var(--vermelhoEscuro);
+  position: relative;
+}
+
+#quem-somos p {
+  margin-bottom: 10px;
+  margin-left: 100px;
+  width: 90%;
+}
+
+#quem-somos img {
+  min-width: 210px;
 }
