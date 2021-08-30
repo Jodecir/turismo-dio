@@ -46,7 +46,7 @@ header .list-items {
   align-items: center;
 }
 
-.list-items li a{
+.list-items li a {
   color: var(--branco);
 }
 
@@ -58,13 +58,47 @@ header .list-items {
   min-width: 320px;
 }
 
-#quem-somos {
+.presentation {
+  height: 50vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.presentation .txt-presentation {
+  min-height: 200px;
+}
+
+.presentation img {
+  margin-left: 25px;
+}
+
+.txt-presentation h1 {
+  color: #122a57;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #122a57;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  width: 220px;
+  display: block;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#about {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
 }
 
-#quem-somos h2 {
+#about h2 {
   font-size: 32px;
   color: var(--preto);
   display: flex;
@@ -72,7 +106,7 @@ header .list-items {
   margin-left: 100px;
 }
 
-#quem-somos h2::before {
+#about h2::before {
   content: "";
   height: 40px;
   width: 5px;
@@ -81,12 +115,12 @@ header .list-items {
   position: relative;
 }
 
-#quem-somos p {
+#about p {
   margin-bottom: 10px;
   margin-left: 100px;
   width: 90%;
 }
 
-#quem-somos img {
+#about img {
   min-width: 210px;
 }
