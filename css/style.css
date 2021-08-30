@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -28,7 +28,7 @@ ul li a {
 
 div img {
   display: block;
-  width: 90%;
+  width: 100%;
 }
 
 header {
@@ -53,7 +53,7 @@ header .list-items {
 }
 
 h1,h2,h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Indie Flower', cursive;
 }
 
 .list-items li a {
@@ -81,7 +81,7 @@ h1,h2,h3 {
 .presentation {
   height: 50vh;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .presentation .txt-presentation {
@@ -89,18 +89,19 @@ h1,h2,h3 {
 }
 
 .presentation img {
+  width: 90%;
   margin-left: 90px;
 }
 
 .txt-presentation h1 {
-  color: #122a57;
+  color: var(--preto);
   font-size: 48px;
   margin-bottom: 10px;
 }
 
 .btn {
-  background-color: #122a57;
-  color: #fff;
+  background-color: var(--preto);
+  color: var(--branco);
   text-align: center;
   border-radius: 30px;
   width: 220px;
@@ -116,16 +117,15 @@ h1,h2,h3 {
 .about {
   height: 50vh;
   align-items: center;
-  justify-content: space-between;
 }
 
 #about {
   flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-#about h2 {
+.txt-about h2 {
   font-size: 32px;
   color: var(--preto);
   display: flex;
@@ -133,7 +133,7 @@ h1,h2,h3 {
   margin-left: 100px;
 }
 
-#about h2::before {
+.txt-about h2::before {
   content: "";
   height: 40px;
   width: 5px;
@@ -142,7 +142,7 @@ h1,h2,h3 {
   position: relative;
 }
 
-#about p {
+.txt-about p {
   margin-bottom: 10px;
   margin-left: 100px;
   width: 90%;

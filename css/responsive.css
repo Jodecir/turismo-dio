@@ -1,0 +1,58 @@
+@media screen and (max-width: 992px)  {
+  header {
+    height: 90px;
+  }
+  
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .presentation {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .presentation img {
+    display: none;
+  }
+  
+  .about {  
+    height: 65vh;
+  }
+
+  #about {
+    flex-direction: column-reverse;
+  }
+
+  #about img {
+    min-width: 100px;
+    margin: auto;
+  }
+
+  .list-services {
+    flex-direction: column;
+  }
+
+  .item-services img {
+    width: 25%;
+    margin: auto;
+  }
+
+  .list-plans {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .list-plans .item-plan {
+    max-width: 90%;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  footer .flex-container {
+    flex-direction: row;
+  }
+}
