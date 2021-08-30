@@ -159,7 +159,7 @@ header .list-items {
 }
 
 #services h2 {
-  color: rgb(209, 194, 194);
+  color: var(--branco);
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -175,14 +175,14 @@ header .list-items {
 
 .item-services a {
   width: 220px;
-  background-color: #fff;
+  background-color: var(--branco);
   border-radius: 30px;
   height: 50px;
   text-align: center;
   margin-top: 20px;
   line-height: 50px;
   padding: 5px 10px;
-  color: #122a57;
+  color: var(--vermelhoEscuro);
   font-size: 12px;
   text-decoration: none;
   font-weight: 700;
@@ -191,7 +191,7 @@ header .list-items {
 .item-services p {
   font-weight: 700;
   font-size: 18px;
-  color: #fff;
+  color: var(--branco);
   margin-top: 20px;
 }
 
@@ -199,7 +199,6 @@ header .list-items {
   width: 80%;
   margin: auto;
 }
-
 
 /* BACK TO TOP BUTTON */
 .back-to-top-btn {
