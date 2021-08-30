@@ -124,3 +124,28 @@ header .list-items {
 #about img {
   min-width: 210px;
 }
+
+/* BACK TO TOP BUTTON */
+.back-to-top-btn {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  background-color: var(--preto);
+  text-decoration: none;
+}
+
+.back-to-top-btn::after {
+  content: "↑";
+  font-size: 32px;
+  font-weight: bold;
+  transition: margin-top 150ms;
+}
+
+.back-to-top-btn:hover::after {
+  margin-top:-4px;
+}
