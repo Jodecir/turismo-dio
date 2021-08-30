@@ -135,15 +135,14 @@ header .list-items {
   right: 10px;
   width: 45px;
   height: 45px;
-  background-color: var(--preto);
   text-decoration: none;
 }
 
 .back-to-top-btn::after {
-  content: "↑";
+  content: "✈️";
   font-size: 32px;
   font-weight: bold;
-  transition: margin-top 150ms;
+  transition: margin-top 250ms;
 }
 
 .back-to-top-btn:hover::after {
