@@ -223,3 +223,31 @@ header .list-items {
 .back-to-top-btn:hover::after {
   margin-top:-4px;
 }
+
+/* FOOTER */
+footer {
+  background-color: var(--preto);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 16pt;
+  text-align: center;
+}
+
+footer .footer {
+  justify-content: center;
+  color: var(--branco);
+}
+
+footer i {
+  margin-left: 20px;
+}
+
+footer i:hover {
+  transform: scale(1.15);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--branco);
+}
