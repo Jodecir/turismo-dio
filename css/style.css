@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Indie Flower', cursive;
 }
 
 :root {
@@ -48,6 +50,10 @@ header .list-items {
   max-width: 260px;
   justify-content: space-between;
   align-items: center;
+}
+
+h1,h2,h3 {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .list-items li a {
@@ -154,14 +160,8 @@ header .list-items {
 
 #services {
   flex-direction: column;
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
-
-#services h2 {
-  color: var(--branco);
-  font-size: 32px;
-  margin-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .list-services {
@@ -222,6 +222,75 @@ header .list-items {
 
 .back-to-top-btn:hover::after {
   margin-top:-4px;
+}
+
+/* PLANS */
+#plans {
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+#plans h2 {
+  font-size: 32px;
+}
+
+.list-plans {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.item-plan {
+  flex: 1;
+  border: 5px solid var(--preto);
+  margin-right: 20px;
+  padding: 10px;
+  max-width: 240px;
+}
+
+.item-plan .btn {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.item-plan h3 {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.item-plan h3::after {
+  content: "";
+  background-color: var(--preto);
+  width: 100%;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.item-plan ul {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.item-plan ul li {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.item-plan ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: var(--preto);
+  margin-right: 5px;
 }
 
 /* FOOTER */
