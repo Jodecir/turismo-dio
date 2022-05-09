@@ -245,6 +245,7 @@ h1,h2,h3 {
 .item-plan {
   flex: 1;
   border: 5px solid var(--preto);
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
   padding: 10px;
   max-width: 240px;
 }
