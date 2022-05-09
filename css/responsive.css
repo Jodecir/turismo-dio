@@ -2,6 +2,10 @@
   header {
     height: 90px;
   }
+
+  #plans h2{
+    margin: 20px 0px 40px 20px;
+  }
   
   .flex-container {
     flex-direction: column;
@@ -49,7 +53,7 @@
     max-width: 90%;
     margin: auto;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   
   footer .flex-container {

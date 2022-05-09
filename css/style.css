@@ -228,11 +228,11 @@ h1,h2,h3 {
 #plans {
   flex-direction: column;
   min-height: 100vh;
-  padding-top: 50px;
   justify-content: center;
 }
 
 #plans h2 {
+  margin: 20px 0px 60px 20px;
   font-size: 32px;
 }
 
@@ -245,7 +245,6 @@ h1,h2,h3 {
 .item-plan {
   flex: 1;
   border: 5px solid var(--preto);
-  margin-right: 20px;
   padding: 10px;
   max-width: 240px;
 }
